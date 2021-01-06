@@ -1,0 +1,24 @@
+body {
+  background-image: url("../../../../../assets/img/onboarding-page/Background.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 30vw auto 30vw;
+  /* grid-template-rows: 35vh auto auto 30vh; */
+}
+
+.title {
+  background-image: url("../../../../../assets/img/onboarding-page/LogoSlogan.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 3.5vw;
+  margin-left: 3.5vw;
+  margin-right: 37%;
+}
+
+/* .onboard {
+} */

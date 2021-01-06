@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/styles.css"
             ],
             "scripts": []
           },
@@ -88,7 +88,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/styles.css"
             ],
             "scripts": []
           }
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fitgoal"
+    }
+  },
+  "defaultProject": "fitgoal",
+  "cli": {
+    "analytics": "21a71293-98be-4967-b73e-88aedd37ed2f"
+  }
 }
