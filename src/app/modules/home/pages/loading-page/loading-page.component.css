@@ -4,8 +4,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
 
-  height: 100vh;
-  margin: 0;
   display: grid;
   grid-template-columns: 35vw auto 35vw;
   grid-template-rows: 35vh auto auto 30vh;
