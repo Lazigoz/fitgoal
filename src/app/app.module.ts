@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HomeModule } from './modules/home/home.module';
 import { HomeRoutingModule } from './modules/home/home-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { HomeRoutingModule } from './modules/home/home-routing.module';
   imports: [
     BrowserModule,
     HomeModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
