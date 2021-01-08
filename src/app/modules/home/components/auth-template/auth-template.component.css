@@ -1,0 +1,52 @@
+body {
+  background-image: url("../../../../../assets/img/welcome-page/BackgroundAuth.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  display: grid;
+  grid-template-rows: 9vh auto;
+  grid-template-columns: 50vw 50vw;
+}
+
+.nav {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  margin-left: 8vw;
+}
+
+.back {
+  width: 8vw;
+}
+
+.title {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  background-image: url("../../../../../assets/img/welcome-page/Logo+Slogan.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 5vh;
+  margin-right: 60%;
+  margin-left: 10vw;
+}
+
+.form {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  align-self: center;
+  margin-right: 10vw;
+}
+
+.card {
+  min-height: 42vw;
+  text-align: center;
+}

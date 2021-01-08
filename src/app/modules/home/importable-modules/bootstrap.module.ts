@@ -7,4 +7,4 @@ const components = [NgbCarouselModule];
   imports: components,
   exports: components,
 })
-export class BootstrapModule {}
+export class BootstrapModule { }

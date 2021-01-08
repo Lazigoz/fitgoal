@@ -1,0 +1,65 @@
+.circle {
+  width: 5vw;
+  height: 5vw;
+  margin: auto;
+  background-color: rgb(145, 49, 255);
+  border-radius: 100px;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+}
+
+h1 {
+  color: rgb(100, 100, 100);
+  font-size: 3vw;
+  margin-bottom: 1vw;
+}
+
+p {
+  color: rgb(131, 131, 131);
+  font-weight: 50;
+  font-size: 1.4vw;
+  margin: 0;
+}
+
+.create-account {
+  margin-top: 3vw;
+  background-color: rgb(162, 49, 255);
+  font-size: 1.4vw;
+  color: white;
+  padding: 3%;
+  border-radius: 100px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.flex-or {
+  display: flex;
+  margin-top: 2vw;
+}
+
+.flex-or hr {
+  flex-grow: 1;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.flex-or p {
+  margin-top: 1.5vw;
+}
+
+.flex-pics-social {
+  margin-top: 1.4vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.login {
+  margin-top: 15%;
+  color: rgb(131, 131, 131);
+  font-weight: 100;
+  font-size: 1.4vw;
+}
+
+.login a {
+  color: rgb(0, 183, 255);
+}
