@@ -8,10 +8,48 @@
   <body>
     <div class="title"></div>
     <div class="onboard">
-      <mat-card class="card"> Statement </mat-card>
+      <mat-card class="card">
+        <ngb-carousel>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img
+                src="../../../../../assets/img/onboarding-page/Content1.png"
+                alt="asd"
+              />
+            </div>
+            <div class="carousel-caption">
+              <h3>10 seconds between slides...</h3>
+              <p>This carousel uses customized default values.</p>
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img
+                src="../../../../../assets/img/onboarding-page/Content2.png"
+                alt="asd"
+              />
+            </div>
+            <div class="carousel-caption">
+              <h3>10 seconds between slides...</h3>
+              <p>This carousel uses customized default values.</p>
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img
+                src="../../../../../assets/img/onboarding-page/Content3.png"
+                alt="asd"
+              />
+            </div>
+            <div class="carousel-caption">
+              <h3>10 seconds between slides...</h3>
+              <p>This carousel uses customized default values.</p>
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </mat-card>
       <div class="onboard-footer">
         <div class="skip-button">SKIP</div>
-        <mat-progress-bar class="progress-bar"></mat-progress-bar>
         <div class="next-button">NEXT</div>
       </div>
     </div>
