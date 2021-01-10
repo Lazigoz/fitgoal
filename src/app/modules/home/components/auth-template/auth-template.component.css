@@ -15,7 +15,7 @@ body {
   grid-row-start: 1;
   grid-row-end: 2;
 
-  margin-left: 8vw;
+  margin-left: 12vw;
 }
 
 .back {
@@ -32,8 +32,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 5vh;
-  margin-right: 60%;
-  margin-left: 10vw;
+  margin-right: 40%;
+  margin-left: 14vw;
 }
 
 .form {
@@ -43,7 +43,7 @@ body {
   grid-row-end: 3;
 
   align-self: center;
-  margin-right: 10vw;
+  margin-right: 14vw;
 }
 
 .card {

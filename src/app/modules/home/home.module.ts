@@ -8,10 +8,26 @@ import { WelcomePageComponent } from './pages/welcome-page/welcome-page.componen
 import { SignupPageComponent } from './pages/signup-page/signup-page.component';
 import { AuthTemplateComponent } from './components/auth-template/auth-template.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { WizardPageComponent } from './pages/wizard-page/wizard-page.component';
 
 @NgModule({
-  declarations: [LoadingPageComponent, OnboardingPageComponent, WelcomePageComponent, SignupPageComponent, AuthTemplateComponent, LoginPageComponent],
-  imports: [CommonModule, MaterialModule, BootstrapModule],
-  exports: [LoadingPageComponent, OnboardingPageComponent],
+  declarations: [
+    LoadingPageComponent,
+    OnboardingPageComponent,
+    WelcomePageComponent,
+    SignupPageComponent,
+    AuthTemplateComponent,
+    LoginPageComponent,
+    WizardPageComponent
+  ],
+  imports: [
+    CommonModule,
+    MaterialModule,
+    BootstrapModule
+  ],
+  exports: [
+    LoadingPageComponent,
+    OnboardingPageComponent
+  ],
 })
 export class HomeModule { }

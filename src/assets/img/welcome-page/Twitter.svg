@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="78px" viewBox="0 0 79 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Twitter</title>
+    <defs>
+        <filter x="-9.4%" y="-3.1%" width="118.7%" height="116.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="🖥--Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#5-Welcome" transform="translate(-1095.000000, -583.000000)">
+            <g id="Content" filter="url(#filter-1)" transform="translate(735.000000, 117.000000)">
+                <g id="Social-Buttons-+-Link" transform="translate(71.879941, 363.000000)">
+                    <g id="Social-Buttons" transform="translate(52.000000, 105.000000)">
+                        <g id="Group" transform="translate(240.626363, 0.000000)">
+                            <ellipse id="Background" fill="#00ACED" cx="34.9855072" cy="35" rx="34.9855072" ry="35"></ellipse>
+                            <path d="M47.0246377,28.7205882 C46.4586957,29.5441176 45.7512681,30.2775735 44.940942,30.8694853 C44.9538043,31.0496324 44.9538043,31.2297794 44.9538043,31.4099265 C44.9538043,36.9044118 40.7735507,43.2352941 33.1333333,43.2352941 C30.779529,43.2352941 28.5929348,42.5533088 26.7536232,41.3694853 C27.0880435,41.4080882 27.4096014,41.4209559 27.7568841,41.4209559 C29.6990942,41.4209559 31.4869565,40.7647059 32.9146739,39.6452206 C31.0882246,39.6066176 29.5576087,38.4099265 29.0302536,36.7628676 C29.2875,36.8014706 29.5447464,36.8272059 29.8148551,36.8272059 C30.1878623,36.8272059 30.5608696,36.7757353 30.9081522,36.6856618 C29.004529,36.2996324 27.5768116,34.6268382 27.5768116,32.6066176 L27.5768116,32.5551471 C28.1298913,32.8639706 28.7730072,33.0569853 29.4547101,33.0827206 C28.3356884,32.3363971 27.6025362,31.0625 27.6025362,29.6213235 C27.6025362,28.8492647 27.8083333,28.1415441 28.1684783,27.5238971 C30.213587,30.0459559 33.2876812,31.6930147 36.7347826,31.8731618 C36.670471,31.5643382 36.6318841,31.2426471 36.6318841,30.9209559 C36.6318841,28.6305147 38.484058,26.7647059 40.786413,26.7647059 C41.9826087,26.7647059 43.0630435,27.2665441 43.8219203,28.0772059 C44.7608696,27.8970588 45.6612319,27.5496324 46.4586957,27.0735294 C46.15,28.0386029 45.4940217,28.8492647 44.6322464,29.3639706 C45.4682971,29.2738971 46.2786232,29.0422794 47.0246377,28.7205882 Z" id="twitter" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

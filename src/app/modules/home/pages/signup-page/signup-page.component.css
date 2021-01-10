@@ -1,6 +1,6 @@
 .avatar {
-  width: 5vw;
-  height: 5vw;
+  width: 6.4vw;
+  height: 6.4vw;
   margin: auto;
   background-color: rgb(202, 234, 255);
   /* overflow: hidden; */
@@ -9,20 +9,20 @@
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 100px;
-  margin-top: 2vw;
-  margin-bottom: 1vw;
+  margin-top: 1.6vw;
+  margin-bottom: 0.8vw;
 }
 
 h1 {
   color: rgb(100, 100, 100);
-  font-size: 3vw;
-  margin-bottom: 1vw;
+  font-size: 2.4vw;
+  margin-bottom: 0.8vw;
 }
 
 p {
   color: rgb(131, 131, 131);
   font-weight: 50;
-  font-size: 1.4vw;
+  font-size: 1.12vw;
   margin: 0;
 }
 
@@ -33,27 +33,27 @@ p {
 .form-field {
   width: 70%;
   margin: 0;
-  font-size: 1vw;
+  font-size: 0.8vw;
 }
 
-.create-account {
+.signup-button {
   background-color: rgb(162, 49, 255);
-  margin-top: 1vw;
-  font-size: 1.4vw;
+  margin-top: 2.4vw;
+  font-size: 1.12vw;
   color: white;
-  padding: 3%;
+  padding: 2.4%;
   border-radius: 100px;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
-.login {
-  margin-top: 12.5%;
+.addition {
+  margin-top: 12.8%;
   color: rgb(131, 131, 131);
   font-weight: 100;
-  font-size: 1.4vw;
+  font-size: 1.12vw;
 }
 
-.login a {
+.addition a {
   color: rgb(0, 183, 255);
 }

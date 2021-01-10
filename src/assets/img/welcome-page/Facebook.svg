@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="78px" viewBox="0 0 79 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Facebook</title>
+    <defs>
+        <filter x="-9.4%" y="-3.1%" width="118.7%" height="116.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="🖥--Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#5-Welcome" transform="translate(-855.000000, -583.000000)">
+            <g id="Content" filter="url(#filter-1)" transform="translate(735.000000, 117.000000)">
+                <g id="Social-Buttons-+-Link" transform="translate(71.879941, 363.000000)">
+                    <g id="Social-Buttons" transform="translate(52.000000, 105.000000)">
+                        <g id="Group" transform="translate(0.644470, 0.000000)">
+                            <ellipse id="Background" fill="#3B5998" cx="34.9855072" cy="35" rx="34.9855072" ry="35"></ellipse>
+                            <path d="M39.4576366,25.8689197 L39.4576366,28.8086821 L37.7100927,28.8086821 C36.3409978,28.8086821 36.0849882,29.4656745 36.0849882,30.4121889 L36.0849882,32.5167916 L39.346328,32.5167916 L38.9122248,35.8128889 L36.0849882,35.8128889 L36.0849882,44.2647059 L32.6789472,44.2647059 L32.6789472,35.8128889 L29.8405797,35.8128889 L29.8405797,32.5167916 L32.6789472,32.5167916 L32.6789472,30.0892605 C32.6789472,27.2719881 34.4042294,25.7352941 36.9198021,25.7352941 C38.1219342,25.7352941 39.1571035,25.8243778 39.4576366,25.8689197 Z" id="facebook" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="83px" viewBox="0 0 82 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Google</title>
+    <defs>
+        <filter x="-9.4%" y="-3.1%" width="118.7%" height="116.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <ellipse id="path-2" cx="34.9855072" cy="35" rx="34.9855072" ry="35"></ellipse>
+        <filter x="-11.4%" y="-10.0%" width="122.9%" height="122.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="🖥--Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#5-Welcome" transform="translate(-974.000000, -581.000000)">
+            <g id="Content" filter="url(#filter-1)" transform="translate(735.000000, 117.000000)">
+                <g id="Social-Buttons-+-Link" transform="translate(71.879941, 363.000000)">
+                    <g id="Social-Buttons" transform="translate(52.000000, 105.000000)">
+                        <g id="Group" transform="translate(120.650806, 0.000000)">
+                            <g id="Background">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            </g>
+                            <g id="google" transform="translate(26.753623, 25.735294)" fill-rule="nonzero">
+                                <path d="M4.10480808,11.1975551 L3.46009239,13.6053653 L1.10367137,13.6552355 C0.399447351,12.3485139 0,10.8534582 0,9.26470588 C0,7.72839327 0.373473505,6.27962489 1.03548098,5.0039545 L1.03598743,5.0039545 L3.13386379,5.38872932 L4.05286039,7.47488051 C3.86051647,8.03586569 3.75568054,8.63807158 3.75568054,9.26470588 C3.75575289,9.9447932 3.87889351,10.5963988 4.10480808,11.1975551 Z" id="Shape" fill="#FBBB00"></path>
+                                <path d="M18.3599271,7.53394301 C18.4662824,8.09438534 18.5217391,8.67317613 18.5217391,9.26470588 C18.5217391,9.92800092 18.4520294,10.5750103 18.31923,11.1991113 C17.8684137,13.3228642 16.6904383,15.1773254 15.058608,16.4896565 L15.0581016,16.4891498 L12.415715,16.3542687 L12.0417351,14.0187305 C13.1245333,13.3834467 13.9707452,12.3892641 14.4164969,11.1991113 L9.46446399,11.1991113 L9.46446399,7.53394301 L14.488739,7.53394301 L18.3599271,7.53394301 L18.3599271,7.53394301 Z" id="Shape" fill="#518EF8"></path>
+                                <path d="M15.0580654,16.4891498 L15.0585718,16.4896565 C13.4715265,17.7658335 11.4554786,18.5294118 9.26086957,18.5294118 C5.73410615,18.5294118 2.66785394,16.5573685 1.10367137,13.6552717 L4.10480808,11.1975913 C4.88688128,13.2856968 6.90036073,14.7721392 9.26086957,14.7721392 C10.2754774,14.7721392 11.2260189,14.4977447 12.0416627,14.0187305 L15.0580654,16.4891498 Z" id="Shape" fill="#28B446"></path>
+                                <path d="M15.1720537,2.13290901 L12.1719299,4.59008272 C11.3277799,4.06221163 10.3299212,3.75727252 9.26086957,3.75727252 C6.84692986,3.75727252 4.79579195,5.3118974 4.05289657,7.47488051 L1.03598743,5.0039545 L1.03548098,5.0039545 C2.57676461,2.03110581 5.68168818,0 9.26086957,0 C11.5078966,0 13.5681868,0.800745634 15.1720537,2.13290901 Z" id="Shape" fill="#F14336"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

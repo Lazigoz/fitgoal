@@ -1,23 +1,25 @@
-.avatar {
-  width: 5vw;
-  height: 5vw;
+.circle {
+  background-image: url("../../../../../assets/img/welcome-page/Logo_icon.svg");
+  background-position: center;
+  background-size: contain;
+  width: 6.4vw;
+  height: 6.4vw;
   margin: auto;
-  background-color: rgb(145, 49, 255);
+  /* background-color: rgb(145, 49, 255); */
   border-radius: 100px;
-  margin-top: 2vw;
-  margin-bottom: 1vw;
+  margin-top: 1.6vw;
+  margin-bottom: 0.8vw;
 }
 
 h1 {
   color: rgb(100, 100, 100);
-  font-size: 3vw;
-  margin-bottom: 1vw;
+  font-size: 2.4vw;
 }
 
 p {
   color: rgb(131, 131, 131);
   font-weight: 50;
-  font-size: 1.4vw;
+  font-size: 1.12vw;
   margin: 0;
 }
 
@@ -28,48 +30,52 @@ p {
 .form-field {
   width: 70%;
   margin: 0;
-  font-size: 1vw;
+  font-size: 0.8vw;
 }
 
-.create-account {
+.login-button {
   background-color: rgb(162, 49, 255);
-  margin-top: 1vw;
-  font-size: 1.4vw;
+  margin-top: 0.8vw;
+  font-size: 1.12vw;
   color: white;
-  padding: 3%;
+  padding: 2.4%;
   border-radius: 100px;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.image-social {
+  width: 4.8vw;
 }
 
 .flex-or {
   display: flex;
-  margin-top: 2vw;
+  margin-top: 1.4vw;
 }
 
 .flex-or hr {
   flex-grow: 1;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  margin-left: 2.4vw;
+  margin-right: 2.4vw;
 }
 
 .flex-or p {
-  margin-top: 1.5vw;
+  margin-top: 1.2vw;
 }
 
 .flex-pics-social {
-  margin-top: 1.4vw;
+  margin-top: 1.12vw;
   display: flex;
   justify-content: space-around;
 }
 
-.login {
-  margin-top: 10%;
+.addition {
+  margin-top: 8%;
   color: rgb(131, 131, 131);
   font-weight: 100;
-  font-size: 1.4vw;
+  font-size: 1.12vw;
 }
 
-.login a {
+.addition a {
   color: rgb(0, 183, 255);
 }
