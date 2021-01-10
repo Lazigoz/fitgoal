@@ -1,5 +1,5 @@
 body {
-  background-image: url("../../../../../assets/img/wizard-page/BackgroundWizzard.png");
+  background-image: url("../../../../../assets/img/wizard-page/BackgroundWizard.png");
   background-position: center;
   background-size: cover;
 
@@ -11,6 +11,15 @@ body {
 .carousel {
   grid-row-start: 2;
   grid-row-end: 3;
+
+  text-align: center;
+  height: 90%;
+  width: 60%;
+  margin: auto;
+}
+
+.carousel-block {
+  height: 100%;
 }
 
 .nav {
@@ -22,4 +31,20 @@ body {
 
 .back {
   width: 8vw;
+}
+
+.toolbar {
+  margin-right: 20%;
+  font-size: 1vw;
+  color: rgb(0, 225, 255);
+}
+
+.next-button {
+  margin-top: 1.2vw;
+  float: right;
+}
+
+.next-pic {
+  width: 5vw;
+  float: right;
 }

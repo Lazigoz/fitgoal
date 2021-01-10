@@ -12,15 +12,57 @@
         src="../../../../../assets/img/wizard-page/Goback.svg"
       />
     </div>
-    <div class="carousel">
-      <div class="title">
-        <h2>SETTINGS</h2>
+    <div class="carousel-block">
+      <ngb-carousel #carousel>
+        <ng-template ngbSlide class="carousel">
+          <div class="title">
+            <h2>SETTINGS</h2>
+          </div>
+          <h6>What is</h6>
+          <div class="subtitle">
+            <h1>YOUR SEX?</h1>
+          </div>
+          <tr>
+            <td>
+              <input type="checkbox" />
+            </td>
+            <td>
+              <input type="checkbox" />
+            </td>
+            <td>
+              <input type="checkbox" />
+            </td>
+          </tr>
+        </ng-template>
+
+        <ng-template ngbSlide>
+          <div class="title">
+            <h2>SETTINGS</h2>
+          </div>
+          <h6>What is</h6>
+          <div class="subtitle">
+            <h1>YOUR SEX?</h1>
+          </div>
+          <tr>
+            <td>
+              <input type="checkbox" />
+            </td>
+            <td>
+              <input type="checkbox" />
+            </td>
+            <td>
+              <input type="checkbox" />
+            </td>
+          </tr>
+        </ng-template>
+      </ngb-carousel>
+      <div class="toolbar" (click)="nextClicked()">
+        <img
+          class="next-pic"
+          src="../../../../../assets/img/wizard-page/nextButton.svg"
+        />
+        <p class="next-button">NEXT</p>
       </div>
-      <h6>What is</h6>
-      <div class="subtitle">
-        <h1>YOUR SEX?</h1>
-      </div>
-      <div class="next-button"></div>
     </div>
   </body>
 </html>
