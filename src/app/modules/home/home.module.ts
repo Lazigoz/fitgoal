@@ -9,6 +9,7 @@ import { SignupPageComponent } from './pages/signup-page/signup-page.component';
 import { AuthTemplateComponent } from './components/auth-template/auth-template.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { WizardPageComponent } from './pages/wizard-page/wizard-page.component';
+import { TestComponent } from './components/test/test.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { WizardPageComponent } from './pages/wizard-page/wizard-page.component';
     SignupPageComponent,
     AuthTemplateComponent,
     LoginPageComponent,
-    WizardPageComponent
+    WizardPageComponent,
+    TestComponent
   ],
   imports: [
     CommonModule,
@@ -26,8 +28,7 @@ import { WizardPageComponent } from './pages/wizard-page/wizard-page.component';
     BootstrapModule
   ],
   exports: [
-    LoadingPageComponent,
-    OnboardingPageComponent
+    TestComponent
   ],
 })
 export class HomeModule { }

@@ -4,7 +4,6 @@ import { NgbCarousel, NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-wizard-page',
   templateUrl: './wizard-page.component.html',
-  providers: [NgbCarouselConfig],
   styleUrls: ['./wizard-page.component.css']
 })
 export class WizardPageComponent implements OnInit {
@@ -13,10 +12,9 @@ export class WizardPageComponent implements OnInit {
     config.showNavigationArrows = false;
     config.keyboard = false;
     config.interval = 0;
-
   }
 
-  @ViewChild('carousel', { static: true }) carousel: NgbCarousel;
+  @ViewChild(NgbCarousel) carousel: NgbCarousel;
 
   ngOnInit(): void {
   }
