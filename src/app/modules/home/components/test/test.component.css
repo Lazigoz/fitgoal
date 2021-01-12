@@ -2,12 +2,6 @@ body {
   text-align: center;
 }
 
-#content {
-  display: grid;
-  max-width: 81.25%;
-  margin: 0 auto;
-}
-
 #content > * {
   background: cornflowerblue;
   padding: 30px;

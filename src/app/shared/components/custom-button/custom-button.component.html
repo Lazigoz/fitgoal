@@ -1,0 +1,9 @@
+<div
+  [ngClass]="{
+    common: inStyle === 'common',
+    warning: inStyle === 'warning',
+    danger: style === 'danger'
+  }"
+>
+  <ng-content> </ng-content>
+</div>

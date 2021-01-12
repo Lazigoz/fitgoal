@@ -10,6 +10,8 @@ import { AuthTemplateComponent } from './components/auth-template/auth-template.
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { WizardPageComponent } from './pages/wizard-page/wizard-page.component';
 import { TestComponent } from './components/test/test.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { TestComponent } from './components/test/test.component';
   imports: [
     CommonModule,
     MaterialModule,
-    BootstrapModule
+    BootstrapModule,
+    FlexLayoutModule,
+    SharedModule
   ],
   exports: [
     TestComponent
