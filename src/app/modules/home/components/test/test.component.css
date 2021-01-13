@@ -1,8 +1,34 @@
 body {
-  text-align: center;
+  background-color: rgb(87, 32, 214);
 }
 
-#content > * {
-  background: cornflowerblue;
+#col-grid-content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 2%;
+  grid-auto-rows: minmax(100px, auto);
+  max-width: 81.25%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+#col-grid-content > * {
+  background: rgb(99, 187, 238);
   padding: 30px;
+}
+
+/* -------------- */
+
+.navigation {
+  grid-column: 1 / 13;
+}
+
+.carousel {
+  grid-column: 3 / 11;
+  grid-row: 2 / 11;
+}
+
+.toolbar {
+  grid-column: 3/11;
 }

@@ -1,8 +1,15 @@
 html,
 body {
-  height: 100%;
-}
-body {
   margin: 0;
+  height: 100%;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 2%;
+  grid-auto-rows: minmax(100px, auto);
+  max-width: 81.25%;
+  margin: 0 auto;
 }

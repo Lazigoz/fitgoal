@@ -2,8 +2,14 @@
   [ngClass]="{
     common: inStyle === 'common',
     warning: inStyle === 'warning',
-    danger: style === 'danger'
+    danger: inStyle === 'danger'
   }"
 >
-  <ng-content> </ng-content>
+  <ng-content (click)="clicked = !clicked"> </ng-content>
 </div>
+
+<!-- [ngClass]="{
+  common: inStyle === 'common',
+  warning: inStyle === 'warning',
+  danger: style === 'danger'
+}" -->

@@ -7,6 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CustomButtonComponent implements OnInit {
 
+  clicked = false;
+
   @Input() inStyle: string;
 
   constructor() {
