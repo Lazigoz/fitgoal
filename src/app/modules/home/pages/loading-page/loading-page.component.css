@@ -18,11 +18,10 @@ body {
 #loading {
   grid-column: 6/8;
   grid-row: 7;
-  margin: auto;
 }
 
 /* tablet styles */
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 750px) {
   body {
     font-size: 18px;
   }
@@ -44,7 +43,7 @@ body {
 }
 
 /* desktop styles */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   body {
     font-size: 20px;
   }

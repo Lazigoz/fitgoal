@@ -1,40 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="title"></div>
+<body>
+  <div id="content" class="grid">
+    <div class="logo"></div>
     <div class="onboard">
-      <!-- <mat-card class="card"> -->
       <ngb-carousel>
         <ng-template ngbSlide>
-          <div class="picsum-img-wrapper">
-            <img
-              src="../../../../../assets/img/onboarding-page/Content1.png"
-              alt="asd"
-            />
-          </div>
-          <div class="carousel-caption">
-            <h3>10 seconds between slides...</h3>
-            <p>This carousel uses customized default values.</p>
-          </div>
-        </ng-template>
-        <ng-template ngbSlide>
-          <div class="picsum-img-wrapper">
-            <img
-              src="../../../../../assets/img/onboarding-page/Content2.png"
-              alt="asd"
-            />
-          </div>
-          <div class="carousel-caption">
-            <h3>10 seconds between slides...</h3>
-            <p>This carousel uses customized default values.</p>
+          <div class="slide-content">
+            <div class="upper"></div>
+            <div class="lower">
+              <div class="checkmark-image"></div>
+              <div class="text">
+                <div class="title">TRANSFORM</div>
+                <div class="subtitle"></div>
+                <div class="subscription"></div>
+              </div>
+            </div>
           </div>
         </ng-template>
         <ng-template ngbSlide>
+          <div class="slide-content">
+            <div class="upper"></div>
+            <div class="lower">
+              <div class="checkmark-image"></div>
+              <div class="text">
+                <div class="title">TRANSFORM</div>
+                <div class="subtitle"></div>
+                <div class="subscription"></div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+        <!-- <ng-template ngbSlide>
           <div class="picsum-img-wrapper">
             <img
               src="../../../../../assets/img/onboarding-page/Content3.png"
@@ -45,13 +40,12 @@
             <h3>10 seconds between slides...</h3>
             <p>This carousel uses customized default values.</p>
           </div>
-        </ng-template>
+        </ng-template> -->
       </ngb-carousel>
-      <!-- </mat-card> -->
       <div class="onboard-footer">
         <div class="skip-button">SKIP</div>
         <div class="next-button">NEXT</div>
       </div>
     </div>
-  </body>
-</html>
+  </div>
+</body>
