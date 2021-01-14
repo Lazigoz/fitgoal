@@ -45,6 +45,7 @@ body {
   }
 
   .logo {
+    height: 70%;
     grid-column: 4/8;
     grid-row: 2;
     background-image: url("../../../../../assets/img/welcome-page/Logo+Slogan.svg");
@@ -54,7 +55,7 @@ body {
 }
 
 /* desktop styles */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .grid {
     max-width: 81.25%;
   }

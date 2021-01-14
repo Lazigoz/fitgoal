@@ -1,6 +1,9 @@
-/* phone styles */
-.grid {
-  max-width: 100%;
+.flex {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .circle {
@@ -10,96 +13,108 @@
   background-repeat: no-repeat;
 }
 
-.text {
-}
-
-.signup-button {
-  grid-column: 2/12;
-  grid-row: 3;
-  padding: 2.4%;
-  border-radius: 100px;
-}
-
-/* tablet styles */
-@media screen and (min-width: 750px) {
-}
-
-/* desktop styles */
-@media screen and (min-width: 1200px) {
-}
-
-/* old things */
-/* .asd {
-  height: 100%;
-}
-
+/* phone styles */
 .circle {
-  background-image: url("../../../../../assets/img/welcome-page/Logo_icon.svg");
-  background-position: center;
-  background-size: contain;
-  width: 6.4vw;
-  height: 6.4vw;
-  margin: auto;
-  margin-top: 1.6vw;
-  margin-bottom: 0.8vw;
+  margin-top: 20px;
+  padding: 60px;
 }
 
-h1 {
+.text h1 {
   color: rgb(100, 100, 100);
-  font-size: 2.4vw;
-  margin-bottom: 1.84vw;
+  font-size: 50px;
 }
 
-p {
+.text p {
   color: rgb(131, 131, 131);
   font-weight: 50;
-  font-size: 1.12vw;
+  font-size: 20px;
   margin: 0;
 }
 
 .signup-button {
   margin-top: 2.4vw;
   background-color: rgb(162, 49, 255);
-  font-size: 1.12vw;
   color: white;
-  padding: 2.4%;
+  padding: 20px 33%;
   border-radius: 100px;
-  margin-right: 4%;
-  margin-left: 4%;
 }
 
 .flex-or {
   display: flex;
-  margin-top: 1.6vw;
+  width: 100%;
 }
 
 .flex-or hr {
-  flex-grow: 1;
-  margin-left: 2.4vw;
-  margin-right: 2.4vw;
+  width: 25%;
 }
 
 .flex-or p {
-  margin-top: 1.2vw;
+  color: rgb(131, 131, 131);
+  font-weight: 50;
+  margin-top: 15px;
 }
 
 .flex-pics-social {
-  margin-top: 1.12vw;
   display: flex;
   justify-content: space-around;
+  width: 75%;
 }
 
 .image-social {
-  width: 4.8vw;
+  width: 20%;
 }
 
 .addition {
-  margin-top: 8%;
+  margin-top: 20px;
   color: rgb(131, 131, 131);
   font-weight: 100;
-  font-size: 1.12vw;
 }
 
 .addition a {
   color: rgb(0, 183, 255);
-} */
+}
+
+/* tablet styles */
+@media screen and (min-width: 750px) {
+  .flex {
+    font-size: 18px;
+  }
+
+  .circle {
+    margin-top: 2%;
+  }
+
+  .signup-button {
+    font-size: 20px;
+  }
+}
+
+/* desktop styles */
+@media screen and (min-width: 1400px) {
+  .flex {
+    font-size: 20px;
+  }
+
+  .circle {
+    padding: 80px;
+  }
+
+  .text h1 {
+    font-size: 60px;
+  }
+
+  .text p {
+    font-size: 32px;
+  }
+
+  .signup-button {
+    padding: 20px 33%;
+    margin-top: -20px;
+    font-size: 25px;
+  }
+
+  .image-social {
+    margin-top: -25px;
+    width: 110px;
+  }
+}
