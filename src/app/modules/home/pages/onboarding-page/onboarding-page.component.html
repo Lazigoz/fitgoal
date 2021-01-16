@@ -5,46 +5,74 @@
       <ngb-carousel>
         <ng-template ngbSlide>
           <div class="slide-content">
-            <div class="upper"></div>
+            <div class="upper">
+              <img src="../../../../../assets/img/onboarding-page/image1.svg" />
+            </div>
             <div class="lower">
               <div class="checkmark-image"></div>
               <div class="text">
-                <div class="title">TRANSFORM</div>
-                <div class="subtitle"></div>
-                <div class="subscription"></div>
+                <div class="title">
+                  <h1>TRANSFORM</h1>
+                </div>
+                <div class="subtitle">
+                  <p>Your life</p>
+                </div>
+                <div class="subscription">
+                  <p>Create your own fitness Routine</p>
+                  <p>where ever you are.</p>
+                </div>
               </div>
             </div>
           </div>
         </ng-template>
         <ng-template ngbSlide>
           <div class="slide-content">
-            <div class="upper"></div>
+            <div class="upper">
+              <img src="../../../../../assets/img/onboarding-page/image2.svg" />
+            </div>
             <div class="lower">
               <div class="checkmark-image"></div>
               <div class="text">
-                <div class="title">TRANSFORM</div>
-                <div class="subtitle"></div>
-                <div class="subscription"></div>
+                <div class="title">
+                  <h1>TRANSFORM</h1>
+                </div>
+                <div class="subtitle">
+                  <p>Your style</p>
+                </div>
+                <div class="subscription">
+                  <p>Create your own fitness Routine</p>
+                  <p>where ever you are.</p>
+                </div>
               </div>
             </div>
           </div>
         </ng-template>
-        <!-- <ng-template ngbSlide>
-          <div class="picsum-img-wrapper">
-            <img
-              src="../../../../../assets/img/onboarding-page/Content3.png"
-              alt="asd"
-            />
+        <ng-template ngbSlide>
+          <div class="slide-content">
+            <div class="upper">
+              <img src="../../../../../assets/img/onboarding-page/image3.svg" />
+            </div>
+            <div class="lower">
+              <div class="checkmark-image"></div>
+              <div class="text">
+                <div class="title">
+                  <h1>TRANSFORM</h1>
+                </div>
+                <div class="subtitle">
+                  <p>Your health</p>
+                </div>
+                <div class="subscription">
+                  <p>Create your own fitness Routine</p>
+                  <p>where ever you are.</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="carousel-caption">
-            <h3>10 seconds between slides...</h3>
-            <p>This carousel uses customized default values.</p>
-          </div>
-        </ng-template> -->
+        </ng-template>
       </ngb-carousel>
       <div class="onboard-footer">
         <div class="skip-button">SKIP</div>
-        <div class="next-button">NEXT</div>
+        <div class="next-button" (click)="nextClicked()">NEXT</div>
       </div>
     </div>
   </div>

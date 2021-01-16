@@ -24,37 +24,112 @@ body {
 }
 
 .onboard {
-  grid-column: 2/12;
-  grid-row: 5/17;
+  grid-column: 1/13;
+  grid-row: 6;
 }
 
 .slide-content {
+  margin: 0 70px;
   display: flex;
   flex-flow: column;
   border-radius: 10px;
-  padding-bottom: 40%;
+  /* padding-bottom: 30%; */
   background-color: white;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-bottom: 100px;
 }
 
 .upper {
   border-radius: 10px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  background-image: url("../../../../../assets/img/onboarding-page/image1.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   width: 100%;
-  padding-bottom: 60%;
+}
+
+.upper img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.lower {
+  display: flex;
+  margin-top: 10px;
+}
+
+.text {
+  color: rgb(128, 128, 128);
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column;
+}
+
+.checkmark-image {
+  height: 40px;
+  width: 40px;
+  margin: 25px;
+  background-image: url("../../../../../assets/img/onboarding-page/checkmark.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.title h1 {
+  font-size: 50px;
+  font-weight: 8000;
+  margin: 0;
+}
+
+.subtitle p {
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.subscription {
+  margin-bottom: 50px;
+}
+
+.subscription p {
+  font-size: 22px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.onboard-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skip-button {
+  /* margin-top: -60px; */
+  color: rgb(0, 217, 255);
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.522);
+  font-size: 20px;
+}
+
+.next-button {
+  /* margin-top: -60px; */
+  color: rgb(0, 217, 255);
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.522);
+  font-size: 20px;
 }
 
 /* tablet styles */
 @media screen and (min-width: 750px) {
   .grid {
     font-size: 18px;
+  }
+
+  .onboard {
+    grid-column: 1/13;
+    grid-row: 4;
+  }
+  .lower {
+    margin-top: 15px;
   }
 }
 
@@ -65,54 +140,36 @@ body {
     max-width: 81.25%;
     margin: 0 auto;
   }
-}
 
-/* old things */
-/* body {
-  background-image: url("../../../../../assets/img/onboarding-page/BackgroundOnboard.png");
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-}
+  .logo {
+    margin-left: -120px;
+    grid-column: 1/4;
+    grid-row: 2/4;
+  }
 
-.title {
-  background-image: url("../../../../../assets/img/onboarding-page/LogoSlogan.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 3.5vw;
-  margin-left: 3.5vw;
-  margin-right: 37%;
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
+  .onboard {
+    grid-column: 4/10;
+    grid-row: 2/10;
+  }
 
-.onboard {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
+  .checkmark-image {
+    height: 55px;
+    width: 55px;
+  }
 
-.card {
-  margin-top: 3.5vw;
-  min-height: 70%;
-}
+  .text {
+    margin-top: 10px;
+  }
 
-.onboard-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 5vh;
-}
+  .title h1 {
+    font-size: 70px;
+  }
 
-.skip-button {
-  color: rgb(0, 217, 255);
-  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.522);
-  margin-top: 4vh;
-  margin-left: 2vw;
-}
+  .subtitle p {
+    font-size: 50px;
+  }
 
-.next-button {
-  color: rgb(0, 217, 255);
-  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.522);
-  margin-top: 4vh;
-  margin-right: 2vw;
-} */
+  .subscription p {
+    font-size: 30px;
+  }
+}

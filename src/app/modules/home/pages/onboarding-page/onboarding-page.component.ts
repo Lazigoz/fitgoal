@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgbCarousel, NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-onboarding-page',
@@ -6,7 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./onboarding-page.component.css'],
 })
 export class OnboardingPageComponent implements OnInit {
-  constructor() {}
 
-  ngOnInit(): void {}
+  @ViewChild(NgbCarousel) carousel: NgbCarousel;
+
+  constructor(config: NgbCarouselConfig) {
+    config.showNavigationArrows = false;
+    config.interval = 0;
+    config.wrap = false;
+  }
+
+  nextClicked(): void {
+    this.carousel.next();
+  }
+
+  ngOnInit(): void { }
 }
