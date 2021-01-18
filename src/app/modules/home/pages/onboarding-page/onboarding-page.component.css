@@ -1,4 +1,5 @@
-body {
+#page-wrap {
+  height: 100%;
   background-image: url("../../../../../assets/img/onboarding-page/BackgroundOnboard.png");
   background-position: center;
   background-attachment: fixed;
@@ -120,7 +121,7 @@ body {
 
 /* tablet styles */
 @media screen and (min-width: 750px) {
-  .grid {
+  #page-wrap {
     font-size: 18px;
   }
 
@@ -135,8 +136,11 @@ body {
 
 /* desktop styles */
 @media screen and (min-width: 1400px) {
-  .grid {
+  #page-wrap {
     font-size: 20px;
+  }
+
+  .grid {
     max-width: 81.25%;
     margin: 0 auto;
   }
@@ -162,14 +166,14 @@ body {
   }
 
   .title h1 {
-    font-size: 70px;
+    font-size: 3vw;
   }
 
   .subtitle p {
-    font-size: 50px;
+    font-size: 2vw;
   }
 
   .subscription p {
-    font-size: 30px;
+    font-size: 1vw;
   }
 }

@@ -1,4 +1,5 @@
-body {
+#page-wrap {
+  height: 100%;
   background-image: url("../../../../../assets/img/welcome-page/BackgroundAuth.png");
   background-position: center;
   background-attachment: fixed;
@@ -82,45 +83,3 @@ body {
     width: 170px;
   }
 }
-
-/* old thins */
-/* .nav {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  margin-left: 12vw;
-}
-
-.back {
-  width: 8vw;
-}
-
-.title {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-
-  background-image: url("../../../../../assets/img/welcome-page/Logo+Slogan.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 5vh;
-  margin-right: 40%;
-  margin-left: 14vw;
-}
-
-.form {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-
-  align-self: center;
-  margin-right: 14vw;
-}
-
-.card {
-  min-height: 42vw;
-  text-align: center;
-} */

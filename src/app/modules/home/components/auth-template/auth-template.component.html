@@ -1,22 +1,15 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="content" class="grid">
-      <div class="nav">
-        <img
-          class="back"
-          src="../../../../../assets/img/welcome-page/Goback.svg"
-          alt=""
-        />
-      </div>
-      <div class="logo"></div>
-      <mat-card class="card">
-        <ng-content> </ng-content>
-      </mat-card>
+<div id="page-wrap">
+  <div id="content" class="grid">
+    <div class="nav">
+      <img
+        class="back"
+        src="../../../../../assets/img/welcome-page/Goback.svg"
+        alt=""
+      />
     </div>
-  </body>
-</html>
+    <div class="logo"></div>
+    <mat-card class="card">
+      <ng-content> </ng-content>
+    </mat-card>
+  </div>
+</div>
